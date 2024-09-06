@@ -12,8 +12,8 @@ body {
   background-color: white;
   width: 350px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* fixed black border shadow */
-  margin: 50px auto;
+  box-shadow: 0 0 10px #00000033;
+  margin: 140px auto;
   padding: 20px;
 }
 
@@ -23,21 +23,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px; /* removed 27px radius */
+  border-radius: 10px; 
   overflow: hidden;
 }
 
 .card-image img {
-  height: 170px;
+  height: 195px;
   object-fit: contain;
-  border-radius: 10px; /* added border radius */
+  border-radius: 25px; 
 }
 
 .card-category {
   font-size: 16px;
   font-weight: bold;
   color: #333;
-  margin-bottom: 10px;
+  margin-top: 15px;
   background-color: #ffea00;
   color: #000000;
   padding: 5px 10px;
@@ -66,6 +66,7 @@ body {
 .card-author {
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .card-author img {
@@ -86,7 +87,8 @@ body {
 .blog-content h2 {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: -20px;
 }
 
 .blog-content h2:hover {
